@@ -409,19 +409,184 @@
     height: 690px;
     border-radius: 10px;
 }
+ /* widget section End  here  */
+
+ /* crats section start here */
+.crats-head{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    background:#7ba2e5; ;
+}
+.crats-content{
+    border: 2px solid brown;
+    padding: 100px 10% 80px;
+}
+
+.crats-content-inner{
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.crats-content-inner h3{
+    font: normal normal 700 24px/32px MontserratBold;
+    color: #1e3469;
+    margin: 20px 0 28px;
+}
+.crats-content-inner p{
+    color: #fff;
+}
+.crats-image{
+    /* display: flex; */
+    /* max-width: 1823px; */
+    width: 100%;
+    padding: 0 30px;
+    min-width: 473px;
+}
+
+ /* crats section start here */
+
+/* Votepage section start here */
+.vote-page{
+    border: 2px solid green;
+    background: #212f53;
+    padding: 80px 10%;
+}
+.vote-head{
+    border: 2px solid red;
+    max-width: 1120px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vote-head-content{
+    border: 2px dotted yellow;
+    /* display: flex; */
+    margin-right: 40px;
+}
+.vote-head-content h1{
+    font: normal normal 900 50px/61px MontserratBlack;
+    margin-bottom: 35px;
+    color: #fff;
+}
+.vote-head-content p{
+    font: normal normal 500 16px/25px Montserrat;
+    max-width: 480px;
+    color: #fff;
+}
+/* Votepage section End here */
+
+/* chainlink start here */
+.chainlink-page{
+    padding: 90px 10%;
+    background:#7ba2e5; ;
+
+}
+.chainlink-head{
+    max-width: 1120px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chainlink-head-content{
+    margin-right: 40px;
+}
+.chainlink-head-content h1{
+    font: normal normal 900 50px/61px MontserratBlack;
+    margin-bottom: 35px;
+    color: #fff;
+}
+.chainlink-head-content h1 span{
+    font-weight: 600;
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.chainlink-head-content p{
+    font: normal normal 500 16px/25px Montserrat;
+    max-width: 480px;
+    color: #fff;
+}
+/* chainlink End here */
+
+/* teampage section start here  */
+.team-page{
+    display: flex;
+    justify-content: center;
+    padding: 155px 10% 135px;
+    background: #2e4883;
+}
+.team-head{
+    max-width: 1120px;
+    width: 100%;
+    flex-direction: column;
+    color: #fff;
+}
+.team-head h1{
+    font: normal normal 900 50px/61px MontserratBlack;
+    margin-bottom: 20px;
+}
+.team-head p{
+    font: normal normal 500 16px/25px Montserrat;
+    color: #fff;
+    margin-bottom: 47px;
+}
+/* teampage section End here  */
 
 
+/* footer section start here */
+.footer-page{
+    background: #212f53;
+    height: 476px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
 
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1120px;
+    width:100%
+}
+.footer-social a{
+    text-decoration: none;
+    color: inherit;
+    color: #fff;
+    padding: 0 10px;
+    font-size: larger;
+}
+.footer-url{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 
+}
+.footer-url a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
 
-
-
-
-
-
-
-
-
-
-/* widget section End here  */
-
+}
+.footer-logo{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.footer-logo p{
+    font: normal normal 600 13px/16px MontserratSemiBold;
+    letter-spacing: 0;
+    color: #fff;
+    margin: 15px 0 64px;
+}
