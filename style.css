@@ -683,7 +683,131 @@ body{
     .navbar-social i{
         display: none;
     }
+    .chainlink-page{
+        padding:70px 30px;
+    }
+    .chainlink-page .chainlink-head-content h1{
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    .chainlink-page .chainlink-head-content h1 span img{
+        width: 27px;
+    }
+   .chainlink-page .chainlink-head-image img{
+    width: 345px;
+   }
+   .about-page{
+    padding:70px 29px 90px;
+   }
+   .about-page h1{
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 23.6px
+   }
+   .about-page p{
+    font-size: 12px;
+    line-height: 17px;
+   }
+   .crats-head .crats-content{
+    padding:40px 30px 30px;
+   }
+   .crats-head .crats-content-inner{
+    align-items: center;
+   }
+   .crats-head .crats-content-inner img{
+    width: 217.54px;
+   }
+   .crats-head .crats-content-inner h3{
+    margin: 10px 0 20px;
+    font-size: 12px;
+    line-height: 17px;
+   }
+   .crats-head .crats-content-inner p{
+    font-size: 12px;
+    line-height: 17px;
+   }
+   .crats-image{
+    max-height:191px;
+   }
+   .footer-page{
+    flex-direction:column-reverse;
+   }
+   .footer-logo{
+    align-items: center;
+   }
+   .footer-logo p{
+    margin-bottom: 35px;
+   }
+   .footer-link .footer-social{
+    width: 100%;
+    justify-content: space-between;
+   }
+   .footer-link .footer-social a{
+    margin-left: 0;
+   }
+
+  .mint-section {
+    background: url(image/mint_bg.79b50114.png) 50% no-repeat;
+    background-size: cover;
+    padding: 0 30px;
 }
+    .mint-image{
+        width: 261px;
+        margin: 30px 0 0;
+    }
+    .mint-box{
+        max-width: 346px;
+        border-radius: 30px;
+        padding: 23px 27px;
+        margin-bottom: 80px;
+    }
+    .mint-box .mint-price-box{
+        margin-bottom: 22px;
+    }
+    .mint-box .mint-price-box p{
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .mint-box .mint-price-box h4 , .mint-box .mint-title{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .mint-box .mint-title img{
+        width: 117px;
+        margin: 10px 0 30px;
+    }
+    .mint-box .mint-amount{
+        margin-bottom: 20px;
+    }
+    .mint-box .mint-amount span{
+        width: 42.5px;
+        font-size: 13px;
+        line-height: 32px;
+    }
+    .mint-box .mint-amount .mint-amount-no{
+        font-size: 13px;
+    }
+    .mint-box .mint-price-2{
+        padding-top: 6px;
+    }
+    .mint-box .mint-price-2 p{
+        font-size: 9px;
+        line-height: 32px;
+    }
+    .mint-box .mint-price-2 button{
+        font-size: 11px;
+        line-height: 38px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    }
+
+
 
 
 
@@ -700,6 +824,25 @@ body{
    
 }
 
+@media(max-width: 1299px){
+    .mint-section{
+        flex-direction:column;
+        align-items: center;
+    }
+    .mint-image{
+        width: 420px;
+        margin: 100px 0 0;
+    }
+    .mint-image img{
+        width: 100%;
+    }
+    .mint-box{
+        margin-top: 0;
+        max-width: 550px;
+        width: 100%;
+    }
+}
+
 
 @media(max-width: 1620px) {
     .navbar-head-content img{
@@ -707,6 +850,36 @@ body{
     }
 }
 
+@media (max-width:1178px){
+    .chainlink-head{
+        display: block;
+    }
+    .chainlink-page .chainlink-head-content{
+        margin-right: 0;
+        margin-bottom: 47px
+    }
+    .chainlink-page .chainlink-head-content p{
+        max-width: 100%
+    }
+
+}
+@media(min-width: 768px)and (max-height:960px){
+    .carousel-box{
+        height: 205.5px;
+    background-image: url(image/carousel.f356061b.png);
+        background-size: 2879.25px 205.5px;
+    }
+    
+    @keyframes Carousel-bgflow {
+    0% {
+        background-position-x: 0
+    }
+
+    to {
+        background-position-x: -2879.25px
+    }
+}
+}
 
 
 /* media query End here */
