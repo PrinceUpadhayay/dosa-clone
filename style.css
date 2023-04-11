@@ -4,9 +4,8 @@
 
 }
 body{
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
-    /* background: #1e3469; */
 }
 /* navbar start here */
 .navbar-head{
@@ -23,6 +22,14 @@ body{
 }
 .navbar-head-content img{
     width: 100px;
+}
+.humberger-logo{
+    cursor: pointer;
+    margin: 0 0 0 20px;
+    display: none;
+    font-size: 30px;
+    width: 24px;
+
 }
 .navbar-menu ul{
     display: flex;
@@ -669,3 +676,37 @@ body{
     font-size: larger;
 }
 /* footer section End here */
+
+/* media query start here */
+
+@media (max-width:767px){
+    .navbar-social i{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 1140px) {
+    .humberger-logo {
+        display:block
+    }
+   
+}
+
+
+@media(max-width: 1620px) {
+    .navbar-head-content img{
+        width: 100px;
+    }
+}
+
+
+
+/* media query End here */
