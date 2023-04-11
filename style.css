@@ -1,33 +1,28 @@
 *{
-    margin: auto;
     box-sizing: border-box;
     padding: 0;
 
 }
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* background: #1e3469; */
+}
 /* navbar start here */
 .navbar-head{
-    border: 2px solid black;
     background: #7ba2e5;
     padding: 32px 30px;
-    position: absolute;
     top: 0;
     right: 0;
     left: 0;
 }
 .navbar-head-content{
-    border: 2px solid rebeccapurple;
     display: flex;
     align-items: center;
-    max-width: 1670px;
-    width: 100%;
-    position: relative;
+    justify-content: space-between;
 }
 .navbar-head-content img{
     width: 100px;
-}
-.navbar-menu{
-    /* border: 2px solid purple; */
-    margin: 0 auto;
 }
 .navbar-menu ul{
     display: flex;
@@ -35,73 +30,70 @@
     list-style: none;
 }
 .navbar-menu ul li{
-    /* margin-right: 50px; */
     padding:  0 8px;
 }
 .navbar-menu a{
     text-decoration: none;
     color: #1e3469;
-    font-size: 20px;
+    font-weight: 900;
 }
 .navbar-social a{
     margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
 }
 .navbar-social i{
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-    padding: 0 5px;
+    font-size: 18px;
+    color: #fff; 
 }
-.navbar-social .navbar-button{
+ .navbar-button{
     margin-left: 7px;
-    width: 144px;
-    height: 48px;
+    width: 105px;
+    height: 40px;
     color: #fff;
     background: #1e3469;
     border-radius: 24px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    border: unset;
 }
-
-
+.navbar-button span{
+    color: #fff;
+}
 /* navbar End here */
-
 
 /* main content start here */
 
  /* banner head section start here */ 
  .banner-head{
-    border: 2px solid black;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    padding: 100px 12% 0;
+    padding: 124px 10% 0;
     background: #7ba2e5;
-
-} 
-
+}
+.banner-content-left{
+    margin-left: -13%;
+    display: flex;
+}
  .banner-content-right{
-    border: 2px solid green;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 90px 0;
+    padding: 95px 0;
     max-width: 560px;
-    width: 100%;
-    flex-shrink: 0;
 } 
  .banner-content-right h1{
-    font: normal normal 900 33px/40px MontserratBlack;
+    font-weight: 900 ;
     letter-spacing: 0;
     color: #1e3469;
     margin: 26px 0;
     max-width: 431px;
 } 
  .banner-content-right p{
-    font: normal normal 500 20px/24px MontserratSemiBold;
+    font-weight: 700;
+    font-size: large;
     margin-bottom: 37px;
     color: #1e3469;
+    
 
 } 
 .banner-button {
@@ -113,30 +105,21 @@
     flex-wrap: wrap;
 }
  .banner-button button{
-    display: flex;
-    align-items: flex-start;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    font: normal normal 800 15px/19px MontserratBold;
-    text-transform: uppercase;
     height: 52px;
-    width: 167px;
-    justify-content: center;
     margin-bottom: 10px;
-    background: #1e3469 0 0 no-repeat padding-box;
+    background: #1e3469 ;
     border-radius: 24px;
     color: white;
+    width: 50%;
+    border: unset;
+    font-weight: 600;
 } 
-
 
 /* banner section end here */
 
-
 /* Mint section start here */
 .mint-section{
-    border: 2px solid red;
-    background:url(image/mint_bg.79b50114.png);
+    background:url(image/mint_bg.79b50114.png) 50% no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -145,11 +128,9 @@
 }
 
 .mint-image{
-    margin-left: -35%;
+    margin-left: -10%;
     margin-right: 10px;
-    position: relative;
     display: flex;
-    border: 2px solid green;
 }
 .mint-box{
     background: #212f53 0 0 no-repeat padding-box;
@@ -167,15 +148,20 @@
     margin-bottom: 33px;
     border-bottom: 3px solid #f2f5f4;
 }
-.mint-content-white{
-    font: normal normal 600 13px/16px MontserratSemiBold;
-    color:#fff
+.mint-content-white p{
+    font-weight: 600; 
+    color:#fff;
 }
+.mint-content-white h4{
+    font-weight: 800; 
+    color:#fff;
+}
+
 .mint-title{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font: normal normal 600 21px/25px Montserrat;
+    font-weight: 600 ;
     margin-bottom: 30px;
 }
 .mint-title p{
@@ -195,13 +181,17 @@
     font: normal normal 900 23px/60px MontserratBlack;
     flex-shrink: 0;
     cursor: pointer;
+    font-size: xx-large;
+    color: #fff;
 }
 .mint-amount-no{
     width: 100%;
     background-color: #fff;
     text-align: center;
-    font: normal normal 900 25px/60px MontserratBlack;
+    font-weight: 900 ;
     color: #2e4883;
+    font-size: x-large;
+    padding-top: 15px;
 }
 
 .mint-price-2{
@@ -212,12 +202,12 @@
     align-items: center;
 }
 .mint-price-2 p{
-    font: normal normal 700 15px/19px MontserratBold;
+    font-weight: 500;
     color: #f2f5f4;
 
 }
 .mint-price-2 button{
-    background: #85aaeb 0 0 no-repeat padding-box;
+    background: #85aaeb;
     border-radius: 31px;
     font: normal normal 700 16px/60px MontserratBold;
     margin-bottom: 14.5px;
@@ -230,41 +220,43 @@
 
 /* Project section start here */
 .project-section{
-    border: 2px solid black;
     background: #212f53;
-    padding: 140px 10%;
+    padding: 140px 12%;
 }
 
 .project-head{
-    /* border: 2px solid red; */
     max-width: 1120px;    
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
-.project-content-left{
-    /* border: 2px solid green; */
-    flex-direction: column;
+.project-content-left h1{
     color: #fff;
+    font-weight: 800;
+    
+}
+.project-content-left h1 span{
+    font-weight: 500;
+    
 }
 
 .project-content-left p{
-    /* border: 2px solid red; */
-    font: normal normal 500 16px/25px Montserrat;
+    font-weight: 500;
     margin: 32px 0;
     max-width: 480px;
-    width: 100%
+    color:#fff;
 }
 
 .project-content-left button{
     width: 174px;
     height: 50px;
-    justify-content: center;
-    align-items: center;
     background: #7ba2e5;
     border-radius: 24px;
-    /* font: normal normal 800 14px/18px MontserratBold;x */
+    font-weight: 600;
     color: #fff;
     cursor: pointer;
+    border: unset;    
 }
 /* Project section End here */
 
@@ -286,6 +278,7 @@
         background-position-x: -3839px
     }
 }
+
     /* Animation Image  */
 
 /* about section start here */
@@ -296,11 +289,15 @@
 
 .about-content{
     max-width: 1120px;
+    margin: 0 auto;
 }
 .about-content h1{
     font: normal normal 500 50px/61px Montserrat;
     color: #fff;
     margin-bottom: 13px;
+}
+.about-content h1 span{
+    font-weight: 900;
 }
 .about-content p{
     font: normal normal 500 16px/25px Montserrat;
@@ -311,27 +308,32 @@
  /* Dosa Bommb section Start here  */
 
 .bomb-container{
-    border: 2px double red;
     padding: 160px 10% 200px;
     background: #7ba2e5;
 }
 
 .bomb-head{
-    border: 2px solid green;
     max-width: 1120px;
     margin: 0 auto;
 }
-.bomb-title{
-    border: 2px solid brown;
-}
+
 .bomb-title h1{
     color: #fff;
     margin-bottom: 12px;
+    font: normal normal 500 55px/67px Montserrat;
+}
+.bomb-title h1 span{
+    font-weight: 900;
 }
 .bomb-title h3{
-    font: normal normal 700 24px/32px MontserratBlack;
+    font-weight: 900;
+    font-size: 25px;
     color: #1e3469;
     margin-bottom: 20px;
+}
+.bomb-title p{
+    font: normal normal 500 16px/25px Montserrat;
+
 }
 .bomb-title p{
     margin-bottom: 50px;
@@ -352,13 +354,15 @@
 }
 
 .bomb-content h3{
-    font: normal normal 700 24px/32px MontserratBlack;
+    font-weight: 900;
+    font-size: 25px;
     color: #1e3469;
     margin-bottom: 20px;
 }
 .bomb-content p{
     margin-bottom: 30px;
     color: #fff;
+    font: normal normal 500 16px/25px Montserrat;
 }
 .bomb-content button{
     
@@ -375,11 +379,7 @@
     cursor: pointer;
     color: #1e3469;
     margin-left: 15px;
-    /* width: 52px; */
-    /* height: 52px; */
-    /* margin-right: 8px; */
     background: #1e3469;
-    /* border-radius: 50%; */
 }
  /* Dosa Bommb section End here  */
 
@@ -387,27 +387,28 @@
 /* TOKENOMICS Section start here  */
 
 .tokenomics-page{
-    border: 2px solid black;
     padding: 145px 10% 100px;
     background: #212f53;
 
 }
 .tokenomics-container{
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 .tokenomics-container h1{
-    margin-bottom: 5px;
+    font-weight: 900;
+    font-size: 45px;
     text-align: center;
     color: #fff;
-
+}
+.tokenomics-container h1 span{
+    font-weight: 500;
 }
 .tokenomics-container h3{
     color: #fff;
     margin-bottom: 66px;
+    font: normal normal 800 22px/43px MontserratBold;
 }
 .tokenomics-content{
     display: flex;
@@ -420,7 +421,8 @@
 
 }
 .tokenomics-info h4{
-    font: normal normal 500 17px/43px MontserratSemiBold;
+    font-weight: 500;
+    font-size: 18px;
     color: #7ba2e5;
     text-align: center;
     padding: 5px 0;
@@ -432,6 +434,7 @@
     justify-content: space-around;
     align-items: flex-start;
 }
+
 .tokenomics-percent{
     display: flex;
     align-items: center;
@@ -442,12 +445,22 @@
 }
 .tokenomics-percent h2{
     margin-bottom: 3px;
+    font: normal normal 900 51px/51px MontserratBlack;
+
+}
+.tokenomics-percent h2 span{
+    font: normal normal 800 80px/80px MontserratBold;
+    margin-right: 5px;
+}
+.tokenomics-percent p{
+    font: normal normal 600 13px/14px MontserratSemiBold;
+    text-align: center;
+    width: 120px;
 }
 /* TOKENOMICS Section End here  */
 
 /* widget section start here  */
 .widget-section{
-    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -469,7 +482,6 @@
 
  /* crats section start here */
 .crats-head{
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -477,58 +489,56 @@
     background:#7ba2e5; ;
 }
 .crats-content{
-    border: 2px solid brown;
     padding: 100px 10% 80px;
 }
 
 .crats-content-inner{
     max-width: 1120px;
-    width: 100%;
-    margin: 0 auto;
-    flex-direction: column;
-    align-items: flex-start;
 }
 .crats-content-inner h3{
-    font: normal normal 700 24px/32px MontserratBold;
+    font-size: 23px;
     color: #1e3469;
     margin: 20px 0 28px;
 }
 .crats-content-inner p{
     color: #fff;
+    font: normal normal 500 16px/25px Montserrat;
 }
 .crats-image{
-    /* display: flex; */
-    /* max-width: 1823px; */
+    display: flex;
     width: 100%;
     padding: 0 30px;
     min-width: 473px;
+}
+.crats-image img{
+    width: 100%;
 }
 
  /* crats section start here */
 
 /* Votepage section start here */
 .vote-page{
-    border: 2px solid green;
     background: #212f53;
     padding: 80px 10%;
 }
 .vote-head{
-    border: 2px solid red;
     max-width: 1120px;
     margin: 0 auto;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.vote-head-content{
-    border: 2px dotted yellow;
-}
+
 .vote-head-content h1{
-    font: normal normal 900 50px/61px MontserratBlack;
+    font-weight: 900;
     margin-bottom: 35px;
     color: #fff;
+    font-size: 50px;
 }
+.vote-head-content h1 span{
+    font-weight: 600;
+}
+
 .vote-head-content p{
     font: normal normal 500 16px/25px Montserrat;
     max-width: 480px;
@@ -545,14 +555,14 @@
 .chainlink-head{
     max-width: 1120px;
     margin: 0 auto;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.chainlink-head-content{
-    margin-right: 40px;
+.chainlink-head-content img{
+    padding: 0 7px;
 }
+
 .chainlink-head-content h1{
     font: normal normal 900 50px/61px MontserratBlack;
     margin-bottom: 35px;
@@ -563,7 +573,6 @@
     font-family: Montserrat;
     display: flex;
     align-items: center;
-    color: #fff;
 }
 .chainlink-head-content p{
     font: normal normal 500 16px/25px Montserrat;
@@ -581,13 +590,17 @@
 }
 .team-head{
     max-width: 1120px;
-    width: 100%;
+    display: flex;
     flex-direction: column;
     color: #fff;
 }
 .team-head h1{
-    font: normal normal 900 50px/61px MontserratBlack;
+    font-weight: 900;
+    font-size: 50px;
     margin-bottom: 20px;
+}
+.team-head h1 span{
+    font-weight: 500;
 }
 .team-head p{
     font: normal normal 500 16px/25px Montserrat;
@@ -598,57 +611,61 @@
 
 
 /* footer section start here */
+
 .footer-page{
     background: #212f53;
     height: 476px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 10%;
-
 }
-.footer-content{
-    /* display: flex; */
+.footer-page .footer-content{
+    display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1120px;
-    width:100%
+    width: 100%;
 }
-.footer-link{
-    display: flex;
-}
-.footer-social a{
-    text-decoration: none;
-    color: inherit;
+.footer-social i{
     color: #fff;
-    padding: 0 10px;
-    font-size: larger;
+    font-size: 20px;
 }
-.footer-url{
+ .footer-link .footer-social{
+    display: flex;
+    align-items: center;
+}
+.footer-social a:not(:first-child){
+    margin-left: 23px;
+}
+ .footer-url{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+}
+.footer-url ul{
+    margin-right: 100px;
+}
+ .footer-url ul li{
+    list-style: none;
+    font: normal normal 600 19px/26px Montserrat;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-size: larger;
 
 }
-.footer-url ul li{
-    list-style: none;
-    padding: 2px 0;
-}
-.footer-url a{
+.footer-url ul li a{
     color: #fff;
     text-decoration: none;
-    padding: 0 10px;
-
 }
-.footer-logo{
+ .footer-logo{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
 }
-.footer-logo p{
+ .footer-logo p{
     font: normal normal 600 13px/16px MontserratSemiBold;
-    letter-spacing: 0;
     color: #fff;
     margin: 15px 0 64px;
+    font-size: larger;
 }
 /* footer section End here */
