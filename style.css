@@ -359,6 +359,9 @@ body{
     display: flex;
     flex-direction: column;
 }
+.bomb-content img{
+    width: 70%;
+}
 
 .bomb-content h3{
     font-weight: 900;
@@ -695,10 +698,10 @@ body{
         align-items: center
     }
     .chainlink-page .chainlink-head-content h1 span img{
-        width: 27px;
+        width: 50px;
     }
    .chainlink-page .chainlink-head-image img{
-    width: 345px;
+    width: 100%;
    }
    .about-page{
     padding:70px 29px 90px;
@@ -735,20 +738,38 @@ body{
     max-height:191px;
    }
    .footer-page{
-    flex-direction:column-reverse;
+    padding: 30px 70px;
    }
-   .footer-logo{
-    align-items: center;
+   .footer-content{
+    flex-direction: column-reverse;
    }
-   .footer-logo p{
-    margin-bottom: 35px;
-   }
-   .footer-link .footer-social{
-    width: 100%;
+   .footer-page .footer-content .footer-link .footer-social{
+    width:100%;
     justify-content: space-between;
    }
-   .footer-link .footer-social a{
+   .footer-page .footer-content .footer-link .footer-social a{
     margin-left: 0;
+   }
+   .footer-page .footer-content .footer-link .footer-url{
+    justify-content: space-between;
+    width: 100%;
+   }
+   .footer-page .footer-content .footer-link .footer-url ul{
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 0 25px;
+   }
+   .footer-page .footer-content .footer-link .footer-url ul li{
+    font-size: 16px;
+    line-height: 20px;
+   }
+   .footer-page .footer-content .footer-logo{
+    align-items: center;
+   }
+   .footer-page .footer-content .footer-logo p{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 15px;
    }
 
   .mint-section {
@@ -805,24 +826,155 @@ body{
         margin-bottom: 5px;
         margin-top: 15px;
     }
+
+    .carousel-box{
+        height: 152px;
+       background-image: url(image/carousel.f356061b.png);
+        background-size: auto 152px;
+        animation: Carousel-bgflow 30s infinite linear;
+
+    }
+
+    .vote-page{
+        padding: 70px 30px;
+    }
+    .vote-head{
+        flex-direction: column;
+    }
+    .vote-head-content{
+        margin-right: 0;
+    margin-bottom: 47px;
+    }
+    .vote-head-content h1{
+        font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 24px;
+    }
+    .vote-head-content p{
+        font-size: 12px;
+    line-height: 17px;
+    }
+
+    .widget-section{
+        padding: 30px 30px 90px;
+    }
+    
+    .tokenomics-page{
+        padding: 80px 30px 90px;
+    }
+    .tokenomics-container h1{
+        font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 10px;
+}
+    .tokenomics-container h3{
+        font-size: 13px;
+        line-height: 43px;
+        margin-bottom: 50px;
+    }
+
+
+    .bomb-content{
+        display: block;
+    }
+    
+    .bomb-content-left{
+        max-width: 100%;
+        display: block;
+    }
+    
+    .bomb-container{
+        padding: 50px 29px 60px;
+    }
+    .bomb-head h1{
+        font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 8px;
+    }
+    .bomb-head h3{
+        font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    }
+    .bomb-title p{
+        margin-bottom: 30px;
     }
 
 
 
+    .project-section{
+        padding: 70px 30px;
+    }
+
+    .project-content-left h1{
+        font-size: 24px;
+    line-height: 23px;
+    text-align: center;
+}
+    .project-content-right img{
+        width:100%;
+        
+    }
+
+
+    .navbar-head{
+        padding: 30px 20px;
+    }
+
+
+    .banner-head{
+        padding-left: 29px;
+    padding-right: 29px;
+    align-items: center;
+    }
+    .banner-content-right{
+        padding: 45px 0;
+    }
+    .banner-content-right img{
+        width: 164px;
+    height: 79px;
+}
+    .banner-content-right h1{
+        font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 6px;
+    max-width: 200px;
+    align-items: center;
+    }
+
+
+    }
+    
+
+    
 
 
 
 
-
-
-
+@media (max-width: 1041px){
+    .widget-section{
+        flex-direction: column;
+    }
+    .widget-section iframe:last-child{
+        margin-top: 50px;
+    }
+}
 
 @media(max-width: 1140px) {
     .humberger-logo {
         display:block
     }
    
+    .navbar-menu{
+        display: none;
+    }
 }
+
+
+
+
+
 
 @media(max-width: 1299px){
     .mint-section{
@@ -840,6 +992,14 @@ body{
         margin-top: 0;
         max-width: 550px;
         width: 100%;
+    }
+
+    .banner-head{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .banner-content-left img{
+        width: 540px;
     }
 }
 
@@ -862,23 +1022,10 @@ body{
         max-width: 100%
     }
 
-}
-@media(min-width: 768px)and (max-height:960px){
-    .carousel-box{
-        height: 205.5px;
-    background-image: url(image/carousel.f356061b.png);
-        background-size: 2879.25px 205.5px;
-    }
-    
-    @keyframes Carousel-bgflow {
-    0% {
-        background-position-x: 0
+    .project-head{
+        display: block;
     }
 
-    to {
-        background-position-x: -2879.25px
-    }
-}
 }
 
 
