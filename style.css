@@ -110,6 +110,14 @@ body{
 .banner-button-link{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 347px;
+}
+.banner-button-link a:last-child{
+    display: flex;
+    align-items: center;
+    margin: 0 35px;
+
 }
  .banner-button button{
     height: 52px;
@@ -121,6 +129,7 @@ body{
     border: unset;
     font-weight: 600;
 } 
+
 
 /* banner section end here */
 
@@ -930,9 +939,10 @@ body{
     }
     .banner-content-right{
         padding: 45px 0;
+        align-items: center;
+
     }
     .banner-content-right img{
-        width: 164px;
     height: 79px;
 }
     .banner-content-right h1{
@@ -940,11 +950,15 @@ body{
     line-height: 19px;
     margin-bottom: 6px;
     max-width: 200px;
-    align-items: center;
+    text-align: center;
+    }
+    .banner-content-right p{
+        font-size: 11px;
+        line-height: 14px;
+        max-width: 320px;
+    }
     }
 
-
-    }
     
 
     
