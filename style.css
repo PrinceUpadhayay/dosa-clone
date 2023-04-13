@@ -100,8 +100,9 @@ body {
 .banner-content-right {
     display: flex;
     flex-direction: column;
-    padding: 95px 0;
-    max-width: 560px;
+    padding: 90px 0;
+    max-width: 425px;
+    align-items: flex-start;
 }
 
 .banner-content-right h1 {
@@ -109,7 +110,6 @@ body {
     letter-spacing: 0;
     color: #1e3469;
     margin: 26px 0;
-    max-width: 431px;
 }
 
 .banner-content-right p {
@@ -133,23 +133,31 @@ body {
     max-width: 347px;
 }
 
-.banner-button-link a:last-child {
+.banner-button-link a{
+
     display: flex;
     align-items: center;
-    margin: 0 35px;
-
-}
-
-.banner-button button {
+    font-weight: 800;
     height: 52px;
+    width: 167px;
+    justify-content: center;
     margin-bottom: 10px;
     background: #1e3469;
+    color: #fff;
     border-radius: 24px;
-    color: white;
-    width: 50%;
-    border: unset;
-    font-weight: 600;
+    text-decoration: none;
 }
+.banner-button-image{
+    display: flex;
+}
+.banner-button-image a{
+    background: #7ba2e5;
+    
+  
+}
+
+
+
 
 
 /* banner section end here */
@@ -303,9 +311,12 @@ body {
     background: #7ba2e5;
     border-radius: 24px;
     font-weight: 600;
-    color: #fff;
     cursor: pointer;
     border: unset;
+}
+.project-content-left button a{
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Project section End here */
