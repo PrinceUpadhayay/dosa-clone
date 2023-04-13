@@ -1,29 +1,34 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
 
 }
-body{
+
+body {
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
 }
+
 /* navbar start here */
-.navbar-head{
+.navbar-head {
     background: #7ba2e5;
     padding: 32px 30px;
     top: 0;
     right: 0;
     left: 0;
 }
-.navbar-head-content{
+
+.navbar-head-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navbar-head-content img{
+
+.navbar-head-content img {
     width: 100px;
 }
-.humberger-logo{
+
+.humberger-logo {
     cursor: pointer;
     margin: 0 0 0 20px;
     display: none;
@@ -31,30 +36,36 @@ body{
     width: 24px;
 
 }
-.navbar-menu ul{
+
+.navbar-menu ul {
     display: flex;
     align-items: center;
     list-style: none;
 }
-.navbar-menu ul li{
-    padding:  0 8px;
+
+.navbar-menu ul li {
+    padding: 0 8px;
 }
-.navbar-menu a{
+
+.navbar-menu a {
     text-decoration: none;
     color: #1e3469;
     font-weight: 900;
 }
-.navbar-social a{
+
+.navbar-social a {
     margin-left: 10px;
     color: #fff;
     text-decoration: none;
     margin-right: 5px;
 }
-.navbar-social i{
+
+.navbar-social i {
     font-size: 18px;
-    color: #fff; 
+    color: #fff;
 }
- .navbar-button{
+
+.navbar-button {
     margin-left: 7px;
     width: 105px;
     height: 40px;
@@ -63,79 +74,89 @@ body{
     border-radius: 24px;
     border: unset;
 }
-.navbar-button span{
+
+.navbar-button span {
     color: #fff;
 }
+
 /* navbar End here */
 
 /* main content start here */
 
- /* banner head section start here */ 
- .banner-head{
+/* banner head section start here */
+.banner-head {
     display: flex;
     align-items: flex-end;
     justify-content: center;
     padding: 124px 10% 0;
     background: #7ba2e5;
 }
-.banner-content-left{
+
+.banner-content-left {
     margin-left: -13%;
     display: flex;
 }
- .banner-content-right{
+
+.banner-content-right {
     display: flex;
     flex-direction: column;
     padding: 95px 0;
     max-width: 560px;
-} 
- .banner-content-right h1{
-    font-weight: 900 ;
+}
+
+.banner-content-right h1 {
+    font-weight: 900;
     letter-spacing: 0;
     color: #1e3469;
     margin: 26px 0;
     max-width: 431px;
-} 
- .banner-content-right p{
+}
+
+.banner-content-right p {
     font-weight: 700;
     font-size: large;
     margin-bottom: 37px;
     color: #1e3469;
-    
 
-} 
+
+}
+
 .banner-button {
     display: flex;
     flex-wrap: wrap;
 }
-.banner-button-link{
+
+.banner-button-link {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     max-width: 347px;
 }
-.banner-button-link a:last-child{
+
+.banner-button-link a:last-child {
     display: flex;
     align-items: center;
     margin: 0 35px;
 
 }
- .banner-button button{
+
+.banner-button button {
     height: 52px;
     margin-bottom: 10px;
-    background: #1e3469 ;
+    background: #1e3469;
     border-radius: 24px;
     color: white;
     width: 50%;
     border: unset;
     font-weight: 600;
-} 
+}
 
 
 /* banner section end here */
 
 /* Mint section start here */
-.mint-section{
-    background:url(image/mint_bg.79b50114.png) 50% no-repeat;
+.mint-section {
+    background: url(image/mint_bg.79b50114.png) 50% no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -143,12 +164,13 @@ body{
     padding: 0 20%;
 }
 
-.mint-image{
+.mint-image {
     margin-left: -10%;
     margin-right: 10px;
     display: flex;
 }
-.mint-box{
+
+.mint-box {
     background: #212f53 0 0 no-repeat padding-box;
     border-radius: 55px;
     padding: 36px 40px;
@@ -156,7 +178,8 @@ body{
     width: 550px;
     flex-shrink: 0;
 }
-.mint-price-box{
+
+.mint-price-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -164,34 +187,38 @@ body{
     margin-bottom: 33px;
     border-bottom: 3px solid #f2f5f4;
 }
-.mint-content-white p{
-    font-weight: 600; 
-    color:#fff;
-}
-.mint-content-white h4{
-    font-weight: 800; 
-    color:#fff;
-}
 
-.mint-title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: 600 ;
-    margin-bottom: 30px;
-}
-.mint-title p{
+.mint-content-white p {
+    font-weight: 600;
     color: #fff;
 }
 
-.mint-amount{
+.mint-content-white h4 {
+    font-weight: 800;
+    color: #fff;
+}
+
+.mint-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.mint-title p {
+    color: #fff;
+}
+
+.mint-amount {
     width: 100%;
     display: flex;
     background: #85aaeb 0 0 no-repeat padding-box;
     border-radius: 95px;
     margin-bottom: 40px;
 }
-.mint-amount span{
+
+.mint-amount span {
     width: 62px;
     text-align: center;
     font: normal normal 900 23px/60px MontserratBlack;
@@ -200,29 +227,32 @@ body{
     font-size: xx-large;
     color: #fff;
 }
-.mint-amount-no{
+
+.mint-amount-no {
     width: 100%;
     background-color: #fff;
     text-align: center;
-    font-weight: 900 ;
+    font-weight: 900;
     color: #2e4883;
     font-size: x-large;
     padding-top: 15px;
 }
 
-.mint-price-2{
+.mint-price-2 {
     padding-top: 20px;
     border-top: 3px solid #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.mint-price-2 p{
+
+.mint-price-2 p {
     font-weight: 500;
     color: #f2f5f4;
 
 }
-.mint-price-2 button{
+
+.mint-price-2 button {
     background: #85aaeb;
     border-radius: 31px;
     font: normal normal 700 16px/60px MontserratBold;
@@ -232,39 +262,42 @@ body{
     width: 100%;
     opacity: .6;
 }
+
 /* Mint section End here */
 
 /* Project section start here */
-.project-section{
+.project-section {
     background: #212f53;
     padding: 140px 12%;
 }
 
-.project-head{
-    max-width: 1120px;    
+.project-head {
+    max-width: 1120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-.project-content-left h1{
+
+.project-content-left h1 {
     color: #fff;
     font-weight: 800;
-    
-}
-.project-content-left h1 span{
-    font-weight: 500;
-    
+
 }
 
-.project-content-left p{
+.project-content-left h1 span {
+    font-weight: 500;
+
+}
+
+.project-content-left p {
     font-weight: 500;
     margin: 32px 0;
     max-width: 480px;
-    color:#fff;
+    color: #fff;
 }
 
-.project-content-left button{
+.project-content-left button {
     width: 174px;
     height: 50px;
     background: #7ba2e5;
@@ -272,13 +305,14 @@ body{
     font-weight: 600;
     color: #fff;
     cursor: pointer;
-    border: unset;    
+    border: unset;
 }
+
 /* Project section End here */
 
 
-    /* Animation Image  */
-.carousel-box{
+/* Animation Image  */
+.carousel-box {
     /* border: 2px dotted black; */
     height: 274px;
     background-image: url(image/carousel.f356061b.png);
@@ -295,96 +329,108 @@ body{
     }
 }
 
-    /* Animation Image  */
+/* Animation Image  */
 
 /* about section start here */
-.about-page{
+.about-page {
     background: #212f53;
     padding: 140px 10%;
 }
 
-.about-content{
+.about-content {
     max-width: 1120px;
     margin: 0 auto;
 }
-.about-content h1{
+
+.about-content h1 {
     font: normal normal 500 50px/61px Montserrat;
     color: #fff;
     margin-bottom: 13px;
 }
-.about-content h1 span{
+
+.about-content h1 span {
     font-weight: 900;
 }
-.about-content p{
+
+.about-content p {
     font: normal normal 500 16px/25px Montserrat;
     color: #fff;
 }
+
 /* about section End here */
 
- /* Dosa Bommb section Start here  */
+/* Dosa Bommb section Start here  */
 
-.bomb-container{
+.bomb-container {
     padding: 160px 10% 200px;
     background: #7ba2e5;
 }
 
-.bomb-head{
+.bomb-head {
     max-width: 1120px;
     margin: 0 auto;
 }
 
-.bomb-title h1{
+.bomb-title h1 {
     color: #fff;
     margin-bottom: 12px;
     font: normal normal 500 55px/67px Montserrat;
 }
-.bomb-title h1 span{
+
+.bomb-title h1 span {
     font-weight: 900;
 }
-.bomb-title h3{
+
+.bomb-title h3 {
     font-weight: 900;
     font-size: 25px;
     color: #1e3469;
     margin-bottom: 20px;
 }
-.bomb-title p{
+
+.bomb-title p {
     font: normal normal 500 16px/25px Montserrat;
 
 }
-.bomb-title p{
+
+.bomb-title p {
     margin-bottom: 50px;
     color: #fff;
-    
+
 }
 
-.bomb-content{
-     display: flex;
+.bomb-content {
+    display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-.bomb-content-left{
+
+.bomb-content-left {
     max-width: 361px;
     display: flex;
     flex-direction: column;
 }
-.bomb-content img{
+
+.bomb-content img {
     width: 70%;
 }
 
-.bomb-content h3{
+.bomb-content h3 {
     font-weight: 900;
     font-size: 25px;
     color: #1e3469;
     margin-bottom: 20px;
 }
-.bomb-content p{
+
+.bomb-content p {
     margin-bottom: 30px;
     color: #fff;
     font: normal normal 500 16px/25px Montserrat;
 }
-.bomb-content button{
-    
+
+.bomb-content button {
+
     background: #1e3469 0 0 no-repeat padding-box;
     border-radius: 24px;
     font: normal normal 800 14px/18px MontserratBlack;
@@ -393,53 +439,63 @@ body{
     justify-content: center;
     align-items: center;
     color: #fff;
+    border: unset;
 }
-.bomb-content span img{
+
+.bomb-content span img {
     cursor: pointer;
     color: #1e3469;
     margin-left: 15px;
     background: #1e3469;
 }
- /* Dosa Bommb section End here  */
+
+/* Dosa Bommb section End here  */
 
 
 /* TOKENOMICS Section start here  */
 
-.tokenomics-page{
+.tokenomics-page {
     padding: 145px 10% 100px;
     background: #212f53;
 
 }
-.tokenomics-container{
+
+.tokenomics-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.tokenomics-container h1{
+
+.tokenomics-container h1 {
     font-weight: 900;
     font-size: 45px;
     text-align: center;
     color: #fff;
 }
-.tokenomics-container h1 span{
+
+.tokenomics-container h1 span {
     font-weight: 500;
 }
-.tokenomics-container h3{
+
+.tokenomics-container h3 {
     color: #fff;
     margin-bottom: 66px;
     font: normal normal 800 22px/43px MontserratBold;
 }
-.tokenomics-content{
+
+.tokenomics-content {
     display: flex;
     justify-content: center;
     width: 100%;
 }
-.tokenomics-info{
+
+.tokenomics-info {
     display: flex;
     flex-direction: column;
 
 }
-.tokenomics-info h4{
+
+.tokenomics-info h4 {
     font-weight: 500;
     font-size: 18px;
     color: #7ba2e5;
@@ -447,14 +503,15 @@ body{
     padding: 5px 0;
     margin-bottom: 40px;
 }
-.tokenomics-items{
+
+.tokenomics-items {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
 }
 
-.tokenomics-percent{
+.tokenomics-percent {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -462,24 +519,28 @@ body{
     color: #fff;
 
 }
-.tokenomics-percent h2{
+
+.tokenomics-percent h2 {
     margin-bottom: 3px;
     font: normal normal 900 51px/51px MontserratBlack;
 
 }
-.tokenomics-percent h2 span{
+
+.tokenomics-percent h2 span {
     font: normal normal 800 80px/80px MontserratBold;
     margin-right: 5px;
 }
-.tokenomics-percent p{
+
+.tokenomics-percent p {
     font: normal normal 600 13px/14px MontserratSemiBold;
     text-align: center;
     width: 120px;
 }
+
 /* TOKENOMICS Section End here  */
 
 /* widget section start here  */
-.widget-section{
+.widget-section {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -487,60 +548,69 @@ body{
     background: #212f53;
 }
 
-.widget-1{
+.widget-1 {
     width: 500px;
     height: 460px;
 
 }
-.widget-section iframe:last-child{
+
+.widget-section iframe:last-child {
     width: 400px;
     height: 648px;
     border-radius: 10px;
 }
- /* widget section End  here  */
 
- /* crats section start here */
-.crats-head{
+/* widget section End  here  */
+
+/* crats section start here */
+.crats-head {
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
-    background:#7ba2e5; ;
+    background: #7ba2e5;
+    ;
 }
-.crats-content{
+
+.crats-content {
     padding: 100px 10% 80px;
 }
 
-.crats-content-inner{
+.crats-content-inner {
     max-width: 1120px;
 }
-.crats-content-inner h3{
+
+.crats-content-inner h3 {
     font-size: 23px;
     color: #1e3469;
     margin: 20px 0 28px;
 }
-.crats-content-inner p{
+
+.crats-content-inner p {
     color: #fff;
     font: normal normal 500 16px/25px Montserrat;
 }
-.crats-image{
+
+.crats-image {
     display: flex;
     width: 100%;
     padding: 0 30px;
     min-width: 473px;
 }
-.crats-image img{
+
+.crats-image img {
     width: 100%;
 }
 
- /* crats section start here */
+/* crats section start here */
 
 /* Votepage section start here */
-.vote-page{
+.vote-page {
     background: #212f53;
     padding: 80px 10%;
 }
-.vote-head{
+
+.vote-head {
     max-width: 1120px;
     margin: 0 auto;
     display: flex;
@@ -548,123 +618,143 @@ body{
     justify-content: space-between;
 }
 
-.vote-head-content h1{
+.vote-head-content h1 {
     font-weight: 900;
     margin-bottom: 35px;
     color: #fff;
     font-size: 50px;
 }
-.vote-head-content h1 span{
+
+.vote-head-content h1 span {
     font-weight: 600;
 }
 
-.vote-head-content p{
+.vote-head-content p {
     font: normal normal 500 16px/25px Montserrat;
     max-width: 480px;
     color: #fff;
 }
+
 /* Votepage section End here */
 
 /* chainlink start here */
-.chainlink-page{
+.chainlink-page {
     padding: 90px 10%;
-    background:#7ba2e5; ;
+    background: #7ba2e5;
+    ;
 
 }
-.chainlink-head{
+
+.chainlink-head {
     max-width: 1120px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.chainlink-head-content img{
+
+.chainlink-head-content img {
     padding: 0 7px;
 }
 
-.chainlink-head-content h1{
+.chainlink-head-content h1 {
     font: normal normal 900 50px/61px MontserratBlack;
     margin-bottom: 35px;
     color: #fff;
 }
-.chainlink-head-content h1 span{
+
+.chainlink-head-content h1 span {
     font-weight: 600;
     font-family: Montserrat;
     display: flex;
     align-items: center;
 }
-.chainlink-head-content p{
+
+.chainlink-head-content p {
     font: normal normal 500 16px/25px Montserrat;
     max-width: 480px;
     color: #fff;
 }
+
 /* chainlink End here */
 
 /* teampage section start here  */
-.team-page{
+.team-page {
     display: flex;
     justify-content: center;
     padding: 155px 10% 135px;
     background: #2e4883;
 }
-.team-head{
+
+.team-head {
     max-width: 1120px;
     display: flex;
     flex-direction: column;
     color: #fff;
 }
-.team-head h1{
+
+.team-head h1 {
     font-weight: 900;
     font-size: 50px;
     margin-bottom: 20px;
 }
-.team-head h1 span{
+
+.team-head h1 span {
     font-weight: 500;
 }
-.team-head p{
+
+.team-head p {
     font: normal normal 500 16px/25px Montserrat;
     color: #fff;
     margin-bottom: 47px;
 }
+
 /* teampage section End here  */
 
 
 /* footer section start here */
 
-.footer-page{
+.footer-page {
     background: #212f53;
     height: 476px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer-page .footer-content{
+
+.footer-page .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1120px;
     width: 100%;
 }
-.footer-social i{
+
+.footer-social i {
     color: #fff;
     font-size: 20px;
 }
- .footer-link .footer-social{
+
+.footer-link .footer-social {
     display: flex;
     align-items: center;
 }
-.footer-social a:not(:first-child){
+
+.footer-social a:not(:first-child) {
     margin-left: 23px;
 }
- .footer-url{
+
+.footer-url {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
-.footer-url ul{
+
+.footer-url ul {
     margin-right: 100px;
 }
- .footer-url ul li{
+
+.footer-url ul li {
     list-style: none;
     font: normal normal 600 19px/26px Montserrat;
     display: list-item;
@@ -672,33 +762,39 @@ body{
     font-size: larger;
 
 }
-.footer-url ul li a{
+
+.footer-url ul li a {
     color: #fff;
     text-decoration: none;
 }
- .footer-logo{
+
+.footer-logo {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
 }
- .footer-logo p{
+
+.footer-logo p {
     font: normal normal 600 13px/16px MontserratSemiBold;
     color: #fff;
     margin: 15px 0 64px;
     font-size: larger;
 }
+
 /* footer section End here */
 
 /* media query start here */
 
-@media (max-width:767px){
-    .navbar-social i{
+@media (max-width:767px) {
+    .navbar-social i {
         display: none;
     }
-    .chainlink-page{
-        padding:70px 30px;
+
+    .chainlink-page {
+        padding: 70px 30px;
     }
-    .chainlink-page .chainlink-head-content h1{
+
+    .chainlink-page .chainlink-head-content h1 {
         font-size: 24px;
         line-height: 29px;
         margin-bottom: 24px;
@@ -706,281 +802,383 @@ body{
         flex-direction: column;
         align-items: center
     }
-    .chainlink-page .chainlink-head-content h1 span img{
+
+    .chainlink-page .chainlink-head-content h1 span img {
         width: 50px;
     }
-   .chainlink-page .chainlink-head-image img{
-    width: 100%;
-   }
-   .about-page{
-    padding:70px 29px 90px;
-   }
-   .about-page h1{
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-    margin-bottom: 23.6px
-   }
-   .about-page p{
-    font-size: 12px;
-    line-height: 17px;
-   }
-   .crats-head .crats-content{
-    padding:40px 30px 30px;
-   }
-   .crats-head .crats-content-inner{
-    align-items: center;
-   }
-   .crats-head .crats-content-inner img{
-    width: 217.54px;
-   }
-   .crats-head .crats-content-inner h3{
-    margin: 10px 0 20px;
-    font-size: 12px;
-    line-height: 17px;
-   }
-   .crats-head .crats-content-inner p{
-    font-size: 12px;
-    line-height: 17px;
-   }
-   .crats-image{
-    max-height:191px;
-   }
-   .footer-page{
-    padding: 30px 70px;
-   }
-   .footer-content{
-    flex-direction: column-reverse;
-   }
-   .footer-page .footer-content .footer-link .footer-social{
-    width:100%;
-    justify-content: space-between;
-   }
-   .footer-page .footer-content .footer-link .footer-social a{
-    margin-left: 0;
-   }
-   .footer-page .footer-content .footer-link .footer-url{
-    justify-content: space-between;
-    width: 100%;
-   }
-   .footer-page .footer-content .footer-link .footer-url ul{
-    margin-bottom: 0;
-    margin-right: 0;
-    padding: 0 25px;
-   }
-   .footer-page .footer-content .footer-link .footer-url ul li{
-    font-size: 16px;
-    line-height: 20px;
-   }
-   .footer-page .footer-content .footer-logo{
-    align-items: center;
-   }
-   .footer-page .footer-content .footer-logo p{
-    margin-top: 10px;
-    font-size: 12px;
-    line-height: 15px;
-   }
 
-  .mint-section {
-    background: url(image/mint_bg.79b50114.png) 50% no-repeat;
-    background-size: cover;
-    padding: 0 30px;
-}
-    .mint-image{
+    .chainlink-head-image img {
+        width: 345px;
+    }
+    .chainlink-head-content p{
+        font-size: 12px;
+        line-height: 17px;
+    
+    }
+
+
+    .team-page{
+        padding: 70px 30px;
+    }
+
+    .team-head{
+        align-items: center;
+    }
+    .team-head h1{
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 24px;
+    
+    }
+    .team-head h1 span{
+        margin-left: 10px;
+    }
+
+    .team-head p{
+        font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 41px;
+    }
+
+    .about-page {
+        padding: 70px 29px 90px;
+    }
+
+    .about-page h1 {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        margin-bottom: 23.6px
+    }
+
+    .about-page p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .crats-head .crats-content {
+        padding: 40px 30px 30px;
+    }
+
+    .crats-head .crats-content-inner {
+        align-items: center;
+    }
+
+    .crats-head .crats-content-inner img {
+        width: 217.54px;
+    }
+
+    .crats-head .crats-content-inner h3 {
+        margin: 10px 0 20px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .crats-head .crats-content-inner p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .crats-image {
+        max-height: 191px;
+    }
+
+    .footer-page {
+        padding: 30px 70px;
+    }
+
+    .footer-content {
+        flex-direction: column-reverse;
+    }
+
+    .footer-page .footer-content .footer-link .footer-social {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .footer-page .footer-content .footer-link .footer-social a {
+        margin-left: 0;
+    }
+
+    .footer-page .footer-content .footer-link .footer-url {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .footer-page .footer-content .footer-link .footer-url ul {
+        margin-bottom: 0;
+        margin-right: 0;
+        padding: 0 25px;
+    }
+
+    .footer-page .footer-content .footer-link .footer-url ul li {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer-page .footer-content .footer-logo {
+        align-items: center;
+    }
+
+    .footer-page .footer-content .footer-logo p {
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .mint-section {
+        background: url(image/mint_bg.79b50114.png) 50% no-repeat;
+        background-size: cover;
+        padding: 0 30px;
+    }
+
+    .mint-image {
         width: 261px;
         margin: 30px 0 0;
     }
-    .mint-box{
+
+    .mint-box {
         max-width: 346px;
         border-radius: 30px;
         padding: 23px 27px;
         margin-bottom: 80px;
     }
-    .mint-box .mint-price-box{
+
+     .mint-price-box {
         margin-bottom: 22px;
     }
-    .mint-box .mint-price-box p{
+
+     .mint-price-box p {
         font-size: 8px;
         line-height: 10px;
     }
-    .mint-box .mint-price-box h4 , .mint-box .mint-title{
+
+    .mint-box .mint-price-box h4,
+    .mint-box .mint-title {
         font-size: 12px;
         line-height: 15px;
     }
-    .mint-box .mint-title img{
+
+     .mint-title img {
         width: 117px;
         margin: 10px 0 30px;
     }
-    .mint-box .mint-amount{
+
+     .mint-amount {
         margin-bottom: 20px;
     }
-    .mint-box .mint-amount span{
+
+    .mint-amount span {
         width: 42.5px;
         font-size: 13px;
         line-height: 32px;
     }
-    .mint-box .mint-amount .mint-amount-no{
+
+    .mint-box .mint-amount .mint-amount-no {
         font-size: 13px;
     }
-    .mint-box .mint-price-2{
+
+     .mint-price-2 {
         padding-top: 6px;
     }
-    .mint-box .mint-price-2 p{
+
+     .mint-price-2 p {
         font-size: 9px;
         line-height: 32px;
     }
-    .mint-box .mint-price-2 button{
+
+     .mint-price-2 button {
         font-size: 11px;
         line-height: 38px;
         margin-bottom: 5px;
         margin-top: 15px;
     }
 
-    .carousel-box{
+    .carousel-box {
         height: 152px;
-       background-image: url(image/carousel.f356061b.png);
+        background-image: url(image/carousel.f356061b.png);
         background-size: auto 152px;
         animation: Carousel-bgflow 30s infinite linear;
 
     }
 
-    .vote-page{
+    .vote-page {
         padding: 70px 30px;
     }
-    .vote-head{
+
+    .vote-head {
         flex-direction: column;
     }
-    .vote-head-content{
-        margin-right: 0;
-    margin-bottom: 47px;
-    }
-    .vote-head-content h1{
-        font-size: 24px;
-    line-height: 29px;
-    margin-bottom: 24px;
-    }
-    .vote-head-content p{
-        font-size: 12px;
-    line-height: 17px;
+    .vote-head img{
+        width: 333px;
     }
 
-    .widget-section{
+    .vote-head-content {
+        margin-right: 0;
+        margin-bottom: 47px;
+    }
+
+    .vote-head-content h1 {
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 24px;
+    }
+
+    .vote-head-content p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .widget-section {
         padding: 30px 30px 90px;
     }
-    
-    .tokenomics-page{
+
+    .tokenomics-page {
         padding: 80px 30px 90px;
     }
-    .tokenomics-container h1{
+
+    .tokenomics-container h1 {
         font-size: 24px;
-    line-height: 29px;
-    margin-bottom: 10px;
-}
-    .tokenomics-container h3{
+        line-height: 29px;
+        margin-bottom: 10px;
+    }
+
+    .tokenomics-container h3 {
         font-size: 13px;
         line-height: 43px;
         margin-bottom: 50px;
     }
+    .tokenomics-percent h2{
+        font-size: 40px;
+    line-height: 40px;
+    }
+
+   
 
 
-    .bomb-content{
+    .bomb-content {
         display: block;
     }
-    
-    .bomb-content-left{
+
+    .bomb-content-left {
         max-width: 100%;
         display: block;
     }
-    
-    .bomb-container{
+    .bomb-content-left img{
+        width: 100%;
+    }
+
+    .bomb-container {
         padding: 50px 29px 60px;
     }
-    .bomb-head h1{
+
+    .bomb-head h1 {
         font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-    margin-bottom: 8px;
+        line-height: 29px;
+        text-align: center;
+        margin-bottom: 8px;
     }
-    .bomb-head h3{
+    .bomb-head p{
         font-size: 12px;
-    line-height: 12px;
-    text-align: center;
+    line-height: 17px;
     }
-    .bomb-title p{
+
+    .bomb-head h3 {
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+    }
+
+    .bomb-title p {
         margin-bottom: 30px;
     }
 
 
 
-    .project-section{
+    .project-section {
         padding: 70px 30px;
     }
 
-    .project-content-left h1{
+    .project-content-left h1 {
         font-size: 24px;
-    line-height: 23px;
-    text-align: center;
-}
-    .project-content-right img{
-        width:100%;
-        
+        line-height: 23px;
+        text-align: center;
+    }
+    .project-content-left p{
+        font-size: 12px;
+    line-height: 17px;
+    margin: 31px 0 26px;
+    }
+
+    .project-content-right img {
+        width: 250px;
+
     }
 
 
-    .navbar-head{
+    .navbar-head {
         padding: 30px 20px;
     }
 
 
-    .banner-head{
+    .banner-head {
         padding-left: 29px;
-    padding-right: 29px;
-    align-items: center;
+        padding-right: 29px;
+        align-items: center;
     }
-    .banner-content-right{
+
+    .banner-content-left {
+        margin-left: 0;
+    }
+
+    .banner-content-right {
         padding: 45px 0;
         align-items: center;
 
     }
-    .banner-content-right img{
-    height: 79px;
-}
-    .banner-content-right h1{
-        font-size: 15px;
-    line-height: 19px;
-    margin-bottom: 6px;
-    max-width: 200px;
-    text-align: center;
+
+    .banner-content-right img {
+        height: 79px;
     }
-    .banner-content-right p{
+
+    .banner-content-right h1 {
+        font-size: 15px;
+        line-height: 19px;
+        margin-bottom: 6px;
+        max-width: 200px;
+        text-align: center;
+    }
+
+    .banner-content-right p {
         font-size: 11px;
         line-height: 14px;
         max-width: 320px;
     }
-    }
-
-    
-
-    
+}
 
 
 
 
-@media (max-width: 1041px){
-    .widget-section{
+
+
+
+
+@media (max-width: 1041px) {
+    .widget-section {
         flex-direction: column;
     }
-    .widget-section iframe:last-child{
+
+    .widget-section iframe:last-child {
         margin-top: 50px;
     }
 }
 
 @media(max-width: 1140px) {
     .humberger-logo {
-        display:block
+        display: block
     }
-   
-    .navbar-menu{
+
+    .navbar-menu {
         display: none;
     }
 }
@@ -990,54 +1188,60 @@ body{
 
 
 
-@media(max-width: 1299px){
-    .mint-section{
-        flex-direction:column;
+@media(max-width: 1299px) {
+    .mint-section {
+        flex-direction: column;
         align-items: center;
     }
-    .mint-image{
+
+    .mint-image {
         width: 420px;
         margin: 100px 0 0;
     }
-    .mint-image img{
+
+    .mint-image img {
         width: 100%;
     }
-    .mint-box{
+
+    .mint-box {
         margin-top: 0;
         max-width: 550px;
         width: 100%;
     }
 
-    .banner-head{
+    .banner-head {
         flex-direction: column-reverse;
         align-items: center;
     }
-    .banner-content-left img{
+
+    .banner-content-left img {
         width: 540px;
     }
 }
 
 
 @media(max-width: 1620px) {
-    .navbar-head-content img{
+    .navbar-head-content img {
         width: 100px;
     }
 }
 
-@media (max-width:1178px){
-    .chainlink-head{
-        display: block;
+@media (max-width:1178px) {
+    .chainlink-head {
+        flex-direction: column;
     }
-    .chainlink-page .chainlink-head-content{
+
+    .chainlink-page .chainlink-head-content {
         margin-right: 0;
         margin-bottom: 47px
     }
-    .chainlink-page .chainlink-head-content p{
+
+    .chainlink-page .chainlink-head-content p {
         max-width: 100%
     }
 
-    .project-head{
-        display: block;
+    .project-head {
+        flex-direction: column;
     }
 
 }
