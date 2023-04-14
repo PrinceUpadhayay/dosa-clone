@@ -24,15 +24,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
     
 }
-.navbar-head-content a{
-    /* margin-right: 100px; */
-}
-
-.navbar-head-content img {
+.navbar-head-content img{
     width: 100px;
 }
+
 
 .humberger-logo {
     cursor: pointer;
@@ -42,6 +40,10 @@ body {
     width: 24px;
 
 }
+.navbar-menu{
+    margin-right: 100px;
+}
+
 
 .navbar-menu ul {
     display: flex;
@@ -158,12 +160,21 @@ body {
 }
 .banner-button-image a{
     background: #7ba2e5;
-    
-  
+
+}
+.banner-play-button{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    color: #1e3469;
+    margin-left: 30px;
 }
 
-
-
+.banner-play i{
+    font-size: xx-large;
+    padding: 0 5px;
+}
 
 
 /* banner section end here */
@@ -917,7 +928,8 @@ body {
 
 @media(max-width: 1140px) {
     .humberger-logo {
-        display: block
+        display: block;
+        margin-right: auto;
     }
 
     .navbar-menu {
@@ -1331,6 +1343,9 @@ body {
     .navbar-head {
         padding: 30px 20px;
     }
+    .navbar-head-content img{
+        width: 72px;
+    }
 
 
     .banner-head {
@@ -1352,10 +1367,7 @@ body {
         align-items: center;
 
     }
-    .banner-content-right img{
-        width: 164px;
-        height: 79px;
-    }
+   
 
     .banner-button-link a{
         padding: 0 15px;
