@@ -23,6 +23,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .navbar-head-content img {
@@ -244,7 +245,7 @@ body {
     font-weight: 900;
     color: #2e4883;
     font-size: x-large;
-    padding-top: 15px;
+    padding-top: 8px;
 }
 
 .mint-price-2 {
@@ -287,6 +288,10 @@ body {
     align-items: center;
 
 }
+.project-content-left{
+    /* display: flex; */
+    flex-direction: column;
+}
 
 .project-content-left h1 {
     color: #fff;
@@ -305,20 +310,23 @@ body {
     max-width: 480px;
     color: #fff;
 }
-
-.project-content-left button {
-    width: 174px;
-    height: 50px;
-    background: #7ba2e5;
-    border-radius: 24px;
-    font-weight: 600;
-    cursor: pointer;
-    border: unset;
+.project-button{
+    display: flex;
 }
-.project-content-left button a{
+
+.project-button a {
+    width: 174px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7ba2e5 0 0 no-repeat padding-box;
+    border-radius: 24px;
+    font-weight: 800;
     text-decoration: none;
     color: #fff;
 }
+
 
 /* Project section End here */
 
@@ -886,6 +894,10 @@ body {
     .project-head {
         flex-direction: column;
     }
+    .project-content-left{
+        margin-bottom: 100px;
+    }
+
     .vote-head {
         flex-direction: column;
     }
@@ -1284,6 +1296,10 @@ body {
     .project-section {
         padding: 70px 30px;
     }
+    .project-content-left{
+        display: flex;
+        align-items: center;
+    }
 
     .project-content-left h1 {
         font-size: 24px;
@@ -1299,6 +1315,12 @@ body {
     .project-content-right img {
         width: 250px;
 
+    }
+    .project-button a{
+        font-size: 9px;
+    line-height: 11px;
+    width: 111px;
+    height: 35px;
     }
 
 
