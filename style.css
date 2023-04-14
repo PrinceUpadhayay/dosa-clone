@@ -17,6 +17,7 @@ body {
     right: 0;
     left: 0;
     position: absolute;
+    display: flex;
 }
 
 .navbar-head-content {
@@ -24,6 +25,9 @@ body {
     align-items: center;
     justify-content: space-between;
     
+}
+.navbar-head-content a{
+    /* margin-right: 100px; */
 }
 
 .navbar-head-content img {
@@ -1346,6 +1350,20 @@ body {
     .banner-content-right {
         padding: 45px 0;
         align-items: center;
+
+    }
+    .banner-content-right img{
+        width: 164px;
+        height: 79px;
+    }
+
+    .banner-button-link a{
+        padding: 0 15px;
+        font-size: 12px;
+        line-height: 11px;
+        height: 39px;
+        width: 111px;
+        margin: 0 4px 14px;
 
     }
 
