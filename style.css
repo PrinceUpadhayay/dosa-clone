@@ -1444,7 +1444,18 @@ body {
 }
 
 
-
+@media (max-width: 505px){
+    .widget-1{
+        width: 85vw;
+    margin: 0 auto;
+    height: 590px;
+    }
+    .widget-section iframe:last-child{
+        width: 80vw;
+    
+  
+}
+}
 
 
 
